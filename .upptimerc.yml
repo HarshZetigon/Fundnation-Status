@@ -1,32 +1,31 @@
-# Change these first
 owner: HarshZetigon
 repo: Fundnation-Status
 
 sites:
   - name: Fundnation Platform
-    url: ${{ secrets.SITE_URL }}
+    url: https://staging.fundnation.cloud
   - name: Database
-    url: ${{ secrets.SITE_URL }}/api/status?check=database
+    url: https://staging.fundnation.cloud/api/status?check=database
   - name: Storage
-    url: ${{ secrets.SITE_URL }}/api/status?check=storage
+    url: https://staging.fundnation.cloud/api/status?check=storage
   - name: Bunny Storage
-    url: ${{ secrets.SITE_URL }}/api/status?check=bunny_storage
+    url: https://staging.fundnation.cloud/api/status?check=bunny_storage
   - name: Bunny CDN
-    url: ${{ secrets.SITE_URL }}/api/status?check=bunny_cdn
+    url: https://staging.fundnation.cloud/api/status?check=bunny_cdn
   - name: Cron - Exchange Rates
-    url: ${{ secrets.SITE_URL }}/api/status?check=cron_exchange_rates
+    url: https://staging.fundnation.cloud/api/status?check=cron_exchange_rates
   - name: Stripe
-    url: ${{ secrets.SITE_URL }}/api/status?check=stripe
+    url: https://staging.fundnation.cloud/api/status?check=stripe
   - name: Paystack
-    url: ${{ secrets.SITE_URL }}/api/status?check=paystack
+    url: https://staging.fundnation.cloud/api/status?check=paystack
   - name: Mailgun
-    url: ${{ secrets.SITE_URL }}/api/status?check=mailgun
+    url: https://staging.fundnation.cloud/api/status?check=mailgun
   - name: SendPulse
-    url: ${{ secrets.SITE_URL }}/api/status?check=sendpulse
+    url: https://staging.fundnation.cloud/api/status?check=sendpulse
   - name: Zetigon SMS
-    url: ${{ secrets.SITE_URL }}/api/status?check=zetigon_sms
+    url: https://staging.fundnation.cloud/api/status?check=zetigon_sms
   - name: FreeCurrency API
-    url: ${{ secrets.SITE_URL }}/api/status?check=freecurrency_api
+    url: https://staging.fundnation.cloud/api/status?check=freecurrency_api
 
 status-website:
   baseUrl: /Fundnation-Status
