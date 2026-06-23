@@ -1,38 +1,242 @@
 [
   {
-    "name": "Google",
-    "url": "https://www.google.com",
-    "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
-    "slug": "google",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 111,
-    "timeDay": 111,
-    "timeWeek": 111,
-    "timeMonth": 111,
-    "timeYear": 111,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "Test Broken Site",
-    "url": "https://thissitedoesnotexist.koj.co",
-    "icon": "https://icons.duckduckgo.com/ip3/thissitedoesnotexist.koj.co.ico",
-    "slug": "test-broken-site",
+    "name": "Fundnation Platform",
+    "url": "${{ secrets.SITE_URL }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "fundnation-platform",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "7.14%",
+    "uptimeDay": "7.14%",
+    "uptimeWeek": "7.14%",
+    "uptimeMonth": "7.14%",
+    "uptimeYear": "7.14%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-23": 3
+    }
+  },
+  {
+    "name": "Database",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=database",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "database",
+    "status": "down",
+    "uptime": "7.44%",
+    "uptimeDay": "7.44%",
+    "uptimeWeek": "7.44%",
+    "uptimeMonth": "7.44%",
+    "uptimeYear": "7.44%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 2
+    }
+  },
+  {
+    "name": "Storage",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=storage",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "storage",
+    "status": "down",
+    "uptime": "7.97%",
+    "uptimeDay": "7.97%",
+    "uptimeWeek": "7.97%",
+    "uptimeMonth": "7.97%",
+    "uptimeYear": "7.97%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 2
+    }
+  },
+  {
+    "name": "Bunny Storage",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=bunny_storage",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "bunny-storage",
+    "status": "down",
+    "uptime": "9.11%",
+    "uptimeDay": "9.11%",
+    "uptimeWeek": "9.11%",
+    "uptimeMonth": "9.11%",
+    "uptimeYear": "9.11%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 2
+    }
+  },
+  {
+    "name": "Bunny CDN",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=bunny_cdn",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "bunny-cdn",
+    "status": "down",
+    "uptime": "10.43%",
+    "uptimeDay": "10.43%",
+    "uptimeWeek": "10.43%",
+    "uptimeMonth": "10.43%",
+    "uptimeYear": "10.43%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 2
+    }
+  },
+  {
+    "name": "Cron - Exchange Rates",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=cron_exchange_rates",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "cron-exchange-rates",
+    "status": "down",
+    "uptime": "11.42%",
+    "uptimeDay": "11.42%",
+    "uptimeWeek": "11.42%",
+    "uptimeMonth": "11.42%",
+    "uptimeYear": "11.42%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 2
+    }
+  },
+  {
+    "name": "Stripe",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=stripe",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "stripe",
+    "status": "down",
+    "uptime": "13.59%",
+    "uptimeDay": "13.59%",
+    "uptimeWeek": "13.59%",
+    "uptimeMonth": "13.59%",
+    "uptimeYear": "13.59%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 1
+    }
+  },
+  {
+    "name": "Paystack",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=paystack",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "paystack",
+    "status": "down",
+    "uptime": "15.51%",
+    "uptimeDay": "15.51%",
+    "uptimeWeek": "15.51%",
+    "uptimeMonth": "15.51%",
+    "uptimeYear": "15.51%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 1
+    }
+  },
+  {
+    "name": "Mailgun",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=mailgun",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "mailgun",
+    "status": "down",
+    "uptime": "18.36%",
+    "uptimeDay": "18.36%",
+    "uptimeWeek": "18.36%",
+    "uptimeMonth": "18.36%",
+    "uptimeYear": "18.36%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 1
+    }
+  },
+  {
+    "name": "SendPulse",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=sendpulse",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "send-pulse",
+    "status": "down",
+    "uptime": "24.31%",
+    "uptimeDay": "24.31%",
+    "uptimeWeek": "24.31%",
+    "uptimeMonth": "24.31%",
+    "uptimeYear": "24.31%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 1
+    }
+  },
+  {
+    "name": "Zetigon SMS",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=zetigon_sms",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "zetigon-sms",
+    "status": "down",
+    "uptime": "32.37%",
+    "uptimeDay": "32.37%",
+    "uptimeWeek": "32.37%",
+    "uptimeMonth": "32.37%",
+    "uptimeYear": "32.37%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 0
+    }
+  },
+  {
+    "name": "FreeCurrency API",
+    "url": "${{ secrets.SITE_URL }}/api/status?check=freecurrency_api",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "free-currency-api",
+    "status": "down",
+    "uptime": "50.86%",
+    "uptimeDay": "50.86%",
+    "uptimeWeek": "50.86%",
+    "uptimeMonth": "50.86%",
+    "uptimeYear": "50.86%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-06-23": 0
+    }
   }
 ]
