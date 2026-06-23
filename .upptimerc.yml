@@ -12,8 +12,6 @@ sites:
     url: https://staging.fundnation.cloud/api/status?check=bunny_storage
   - name: Bunny CDN
     url: https://staging.fundnation.cloud/api/status?check=bunny_cdn
-  - name: Cron - Exchange Rates
-    url: https://staging.fundnation.cloud/api/status?check=cron_exchange_rates
   - name: Stripe
     url: https://staging.fundnation.cloud/api/status?check=stripe
   - name: Paystack
