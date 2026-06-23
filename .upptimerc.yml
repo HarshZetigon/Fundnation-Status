@@ -1,13 +1,34 @@
 # Change these first
-owner: HarshZetigon # Your GitHub organization or username, where this repository lives
-repo: Fundnation-Status # The name of this repository
+owner: HarshZetigon
+repo: Fundnation-Status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Fundnation Platform
+    url: ${{ secrets.SITE_URL }}
+  - name: Database
+    url: ${{ secrets.SITE_URL }}/api/status?check=database
+  - name: Storage
+    url: ${{ secrets.SITE_URL }}/api/status?check=storage
+  - name: Bunny Storage
+    url: ${{ secrets.SITE_URL }}/api/status?check=bunny_storage
+  - name: Bunny CDN
+    url: ${{ secrets.SITE_URL }}/api/status?check=bunny_cdn
+  - name: Cron - Exchange Rates
+    url: ${{ secrets.SITE_URL }}/api/status?check=cron_exchange_rates
+  - name: Stripe
+    url: ${{ secrets.SITE_URL }}/api/status?check=stripe
+  - name: Paystack
+    url: ${{ secrets.SITE_URL }}/api/status?check=paystack
+  - name: Mailgun
+    url: ${{ secrets.SITE_URL }}/api/status?check=mailgun
+  - name: SendPulse
+    url: ${{ secrets.SITE_URL }}/api/status?check=sendpulse
+  - name: Zetigon SMS
+    url: ${{ secrets.SITE_URL }}/api/status?check=zetigon_sms
+  - name: FreeCurrency API
+    url: ${{ secrets.SITE_URL }}/api/status?check=freecurrency_api
 
 status-website:
   baseUrl: /Fundnation-Status
-  name: Fundnation-Status
+  name: Fundnation Status
+  theme: dark
