@@ -1,7 +1,7 @@
 url: https://staging.fundnation.cloud/api/status?check=bunny_cdn
 status: up
 code: 200
-responseTime: 383
-lastUpdated: 2026-06-29T00:01:20.700Z
+responseTime: 370
+lastUpdated: 2026-06-29T23:54:53.817Z
 startTime: 2026-06-23T12:03:50.553Z
 generator: Upptime <https://github.com/upptime/upptime>
