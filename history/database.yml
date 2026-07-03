@@ -1,7 +1,7 @@
 url: https://staging.fundnation.cloud/api/status?check=database
 status: up
 code: 200
-responseTime: 372
-lastUpdated: 2026-07-02T23:56:20.660Z
+responseTime: 453
+lastUpdated: 2026-07-03T23:57:31.937Z
 startTime: 2026-06-23T12:03:08.155Z
 generator: Upptime <https://github.com/upptime/upptime>
