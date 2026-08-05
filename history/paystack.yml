@@ -1,7 +1,7 @@
 url: https://staging.fundnation.cloud/api/status?check=paystack
 status: up
 code: 200
-responseTime: 475
-lastUpdated: 2026-08-04T23:55:28.061Z
+responseTime: 415
+lastUpdated: 2026-08-05T23:50:15.985Z
 startTime: 2026-06-23T12:04:32.918Z
 generator: Upptime <https://github.com/upptime/upptime>
