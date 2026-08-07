@@ -1,7 +1,7 @@
 url: https://staging.fundnation.cloud/api/status?check=freecurrency_api
 status: up
 code: 200
-responseTime: 485
-lastUpdated: 2026-08-07T01:39:56.466Z
+responseTime: 347
+lastUpdated: 2026-08-07T23:25:08.764Z
 startTime: 2026-06-23T12:05:29.083Z
 generator: Upptime <https://github.com/upptime/upptime>
