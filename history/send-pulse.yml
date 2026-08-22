@@ -1,7 +1,7 @@
 url: https://staging.fundnation.cloud/api/status?check=sendpulse
 status: down
 code: 404
-responseTime: 361
-lastUpdated: 2026-08-21T23:14:30.514Z
+responseTime: 356
+lastUpdated: 2026-08-22T23:11:42.536Z
 startTime: 2026-06-23T12:05:01.090Z
 generator: Upptime <https://github.com/upptime/upptime>
